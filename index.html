@@ -21,7 +21,7 @@
   <script type="module" crossorigin src="/bazooka-boy/index.js"></script>
   <link rel="modulepreload" crossorigin href="/bazooka-boy/assets/vendor-CoHRl8Kh.js">
   <link rel="stylesheet" crossorigin href="/bazooka-boy/assets/vendor-DVz14bw_.css">
-  <link rel="stylesheet" crossorigin href="/bazooka-boy/assets/styles-C30ra45f.css">
+  <link rel="stylesheet" crossorigin href="/bazooka-boy/assets/styles-ClKxVHLp.css">
 </head>
 
 <body>
@@ -68,11 +68,15 @@
 </header>
 <!-- Mobile menu -->
 <div id="modalWindow" class="modal">
+  <div class="modal-header">
+  <p class="mob-text">Super Bazooka Boy</p>
   <button class="modal-close-button" aria-label="close button" type="button">
     <svg class="header-svg" style="width: 24px; height: 24px;">
       <use href="/bazooka-boy/assets/sprite-WUSYvUM1.svg#icon-close"></use>
     </svg>
   </button>
+</div>
+<div class="nav-container">
   <ul class="menu-list">
     <li>
       <a class="menu-list-item" href="index.html#Home">Home</a>
@@ -103,12 +107,13 @@
     <a href="#" class="google-link">PLAY NOW</a>
   </button>
 </div>
+</div>
 
   <main>
 
 
     <!-- hero -->
-<section class="hero-section">
+<section class="hero-section" id="Home">
   <div class="container main-hero">
     <div class="hero-container">
       <h1 class="hero-title">Super Bazooka Boy </h1>
@@ -125,7 +130,7 @@
   </div>
 </section>
 <!-- benefits -->
-<section class="benefits-section">
+<section class="benefits-section" id="Benefits">
   <div class="container benefits-container">
     <h2 class="benefits-title">Benefits</h2>
     <div class="swiper section-swiper">
@@ -174,7 +179,7 @@
   </div>
 </section>
 <!-- keys -->
-<section class="keys-section">
+<section class="keys-section" id="Keys">
   <div class="container keys-container">
     <h2 class="keys-title">Feature Keys</h2>
     <div class="swiper section-swiper-second">
@@ -224,7 +229,7 @@
     </div>
 </section>
 <!-- about -->
-<section class="about-section">
+<section class="about-section" id="About">
   <div class="container">
     <h2 class="abouts-title">About</h2>
     <div class="about-section-container">
@@ -245,7 +250,7 @@
   </div>
 </section>
 <!--How to play-->
-<section class="play-section">
+<section class="play-section" id="Play">
   <div class="container">
     <h2 class="play-title">How to play</h2>
     <div class="play-wrapper">
@@ -276,7 +281,7 @@
   </div>
 </section>
 <!-- FAQ -->
-<section class="FAQ">
+<section class="FAQ" id="FAQ">
   <div class="container">
     <h2 class="faq-title">FAQ</h2>
     <ul class="faq-acc">
@@ -343,7 +348,7 @@
   </div>
 </section>
 <!-- Reviews -->
-<section class="reviews-section">
+<section class="reviews-section" id="Reviews">
   <div class="container">
     <h2 class="reviews-title">Reviews</h2>
     <ul class="reviews-list">
@@ -392,11 +397,70 @@
     </ul>
   </div>
 </section>
+<!-- Gallery -->
+<aside class="gallery-section" id="Gallery">
+  <div class="container">
+    <h2 class="gallery-title">Gallery</h2>
+    <div class="gallery-container">
+      <figure class="figure">
+        <picture class="picture">
+          <source srcset="/bazooka-boy/assets/gallery-desk-one-C9xHoXk7.jpg 1x, /bazooka-boy/assets/gallery-desk-one@2x-1sEMTtWC.jpg 2x" media="(min-width: 1439px)" />
+          <source srcset="/bazooka-boy/assets/gallery-mob-one-E9pLwpwD.jpg 1x, /bazooka-boy/assets/gallery-mob-one@2x-KFQrjdJh.jpg 2x" media="(max-width: 1438px)" />
+          <img class="gallery-img" src="/bazooka-boy/assets/gallery-mob-one-E9pLwpwD.jpg" alt="Game screen" loading="lazy" />
+        </picture>
+        <figcaption class="gallery-text">Epic Bazooka <br />
+          Action!</figcaption>
+      </figure>
+      <figure class="figure">
+        <picture class="picture">
+          <source srcset="/bazooka-boy/assets/gallery-desk-two-DSFxyn3F.jpg 1x, /bazooka-boy/assets/gallery-desk-two@2x-B-3ILXf8.jpg 2x" media="(min-width: 1439px)" />
+          <source srcset="/bazooka-boy/assets/gallery-mob-two-Czbw_yEm.jpg 1x, /bazooka-boy/assets/gallery-mob-two@2x-BrOxoAZC.jpg 2x" media="(max-width: 1438px)" />
+          <img class="gallery-img" src="/bazooka-boy/assets/gallery-mob-two-Czbw_yEm.jpg" alt="Game screen" loading="lazy" />
+        </picture>
+        <figcaption class="gallery-text">Upgrade Your<br />
+          Arsenal!</figcaption>
+      </figure>
+      <figure class="figure">
+        <picture class="picture">
+          <source srcset="/bazooka-boy/assets/gallery-desk-three-B5NLyLFD.jpg 1x, /bazooka-boy/assets/gallery-desk-three@2x-CYrev3BQ.jpg 2x" media="(min-width: 1439px)" />
+          <source srcset="/bazooka-boy/assets/gallery-mob-three-DVr5VGyX.jpg 1x, /bazooka-boy/assets/gallery-mob-three@2x-CPUr9vSb.jpg 2x" media="(max-width: 1438px)" />
+          <img class="gallery-img" src="/bazooka-boy/assets/gallery-mob-three-DVr5VGyX.jpg" alt="Game screen" loading="lazy" />
+        </picture>
+        <figcaption class="gallery-text">Conquer Challenging Levels!</figcaption>
+      </figure>
+      <figure class="figure">
+        <picture class="picture">
+          <source srcset="/bazooka-boy/assets/gallery-desk-four-16HOt0yL.jpg 1x, /bazooka-boy/assets/gallery-desk-four@2x-HTpEgDQK.jpg 2x" media="(min-width: 1439px)" />
+          <source srcset="/bazooka-boy/assets/gallery-mob-four-CV22nkhR.jpg 1x, /bazooka-boy/assets/gallery-mob-four@2x-C6NsRaX-.jpg 2x" media="(max-width: 1438px)" />
+          <img class="gallery-img" src="/bazooka-boy/assets/gallery-mob-four-CV22nkhR.jpg" alt="Game screen" loading="lazy" />
+        </picture>
+        <figcaption class="gallery-text">Awesome Physics-Based Gameplay!</figcaption>
+      </figure>
+    </div>
+  </div>
+</aside>
   </main>
 
   <footer class="footer">
   <div class="container">
+    <div class="footer-container">
+      <ul class="footer-navigation">
+        <li class="footer-link">
+          <a href="Cookies Policy.html">Cookies Policy</a>
+        </li>
+        <li class="footer-link">
+          <a href="Terms & Conditions.html">Terms and Conditions</a>
+        </li>
+        <li class="footer-link">
+          <a href="Privacy%20Policy.html">Privacy Policy</a>
+        </li>
+      </ul>
 
+      <dl class="footer-text-container">
+        <dt class="footer-text">All Rights Reserved thesitestay.com</dt>
+        <dd class="footer-year">2025</dd>
+      </dl>
+    </div>
   </div>
 </footer>
 
