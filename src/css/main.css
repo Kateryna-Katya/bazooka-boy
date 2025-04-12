@@ -428,3 +428,39 @@
     font-family: 'Roboto', sans-serif;
   }
 }
+/* Gallery */
+.gallery-container {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+
+  gap: 24px;
+}
+.figure {
+  margin: 0;
+}
+.gallery-img {
+  margin-bottom: 12px;
+  width: 343px;
+  height: 440px;
+}
+.gallery-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.33333;
+  text-align: center;
+  color: #fff;
+}
+@media screen and (min-width: 1439px) {
+  .gallery-container {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+  .gallery-img {
+    margin-bottom: 12px;
+    max-width: 298px;
+  }
+}
