@@ -160,11 +160,26 @@
 <section class="about-section">
   <div class="container">
     <h2 class="abouts-title">About</h2>
-    <div class="about-conteiner">
-      <p class="about-text">Super Bazooka Boy is a fast-paced action-platformer that puts you in control of a hero armed
-        with an explosive bazooka. Developed by thesitestay.com, this game features thrilling physics-based destruction,
-        strategic shooting, and challenging levels. With intuitive controls and exciting gameplay, Super Bazooka Boy
-        offers an unforgettable arcade experience!</p>
+    <div class="about-section-container">
+      <picture class="picture">
+        <source srcset="
+                        /img/about/about-desk.jpg   1x,
+                        /img/about/about-desk@2x.jpg 2x
+                        " media="(min-width: 1439px)" />
+        <source srcset="
+                        /img/about/about-mob.jpg   1x,
+                        /img/about/about-mob@2x.jpg 2x
+                        " media="(max-width: 1438px)" />
+        <img class="about-img" src="/img/about/about-mob.jpg" alt="Game screen" loading="lazy" />
+      </picture>
+      <div class="about-container">
+        <p class="about-text">Super Bazooka Boy is a fast-paced action-platformer that puts you in control of a hero
+          armed
+          with an explosive bazooka. Developed by thesitestay.com, this game features thrilling physics-based
+          destruction,
+          strategic shooting, and challenging levels. With intuitive controls and exciting gameplay, Super Bazooka Boy
+          offers an unforgettable arcade experience!</p>
+      </div>
     </div>
   </div>
 </section>
@@ -172,39 +187,100 @@
 <section class="play-section">
   <div class="container">
     <h2 class="play-title">How to play</h2>
-    <ul class="keys-list">
-      <li class="keys-item">
+    <div class="play-wrapper">
+      <div class="play-container play-item">
         <h3 class="play-subtitle">Aim Your Bazooka</h3>
         <p class="play-text">Use precise targeting to destroy obstacles and enemies</p>
         <img class="play-img" src="/img/play/play-mob.png" srcset="/img/play/play-mob.png,
                               /img/play/play-mob@2x.png
                               " alt="Aim Your Bazooka" loading="lazy" />
-      </li>
-      <li class="play-list">
-        <h3 class="play-subtitle">Complete Challenging Levels</h3>
-        <p class="play-text">Blast your way through action-packed missions.</p>
-      </li>
-      <li class="play-list">
-        <h3 class="play-subtitle">Upgrade Your Weapons</h3>
-        <p class="play-text">Unlock powerful upgrades for maximum destruction.</p>
-      </li>
-      <li class="play-list">
-        <h3 class="play-subtitle">Complete Challenging Levels</h3>
-        <p class="play-text">Blast your way through action-packed missions.</p>
-      </li>
-      <li class="play-list">
-        <h3 class="play-subtitle">Utilize Physics-Based Tactics</h3>
-        <p class="play-text">Make use of the environment for creative strategies.</p>
-      </li>
-      <li class="play-list">
-        <h3 class="play-subtitle">Survive & Win</h3>
-        <p class="play-text">Overcome tricky obstacles and defeat all opponents!</p>
-      </li>
+      </div>
+      <ul class="play-list">
+        <li class="play-item">
+          <h3 class="play-subtitle">Complete Challenging Levels</h3>
+          <p class="play-text">Blast your way through action-packed missions.</p>
+        </li>
+        <li class="play-item">
+          <h3 class="play-subtitle">Upgrade Your<br /> Weapons</h3>
+          <p class="play-text">Unlock powerful upgrades for maximum destruction.</p>
+        </li>
+        <li class="play-item">
+          <h3 class="play-subtitle">Utilize Physics-Based Tactics</h3>
+          <p class="play-text">Make use of the environment for creative strategies.</p>
+        </li>
+        <li class="play-item">
+          <h3 class="play-subtitle">Survive<br /> & Win</h3>
+          <p class="play-text">Overcome tricky obstacles and defeat all opponents!</p>
+        </li>
+      </ul>
+    </div>
   </div>
 </section>
 <!-- FAQ -->
 <section class="FAQ">
   <div class="container">
+    <h2 class="faq-title">FAQ</h2>
+    <ul class="faq-acc">
+      <li class="faq-acc-el faq-current">
+        <h3 class="faq-acc-el-title">
+          <button type="button" class="faq-acc-el-trigger">
+            Is Super Bazooka Boy free to play?
+
+            <span class="faq-acc-arr arr-down">
+              <img class="faq-img" src="/img/arrow-down.png" alt="Down Arrow" width="48" height="48" />
+            </span>
+          </button>
+        </h3>
+
+        <p class="faq-acc-el-descr-frame">
+          Yes! The game is free with optional in-app purchases.
+        </p>
+      </li>
+      <li class="faq-acc-el faq-current">
+        <h3 class="faq-acc-el-title">
+          <button type="button" class="faq-acc-el-trigger">
+            Do I need an internet connection?
+
+            <span class="faq-acc-arr arr-down">
+              <img class="faq-img" src="/img/arrow-down.png" alt="Down Arrow" width="48" height="48" />
+            </span>
+          </button>
+        </h3>
+
+        <p class="faq-acc-el-descr-frame">
+          No, you can play offline anytime.
+        </p>
+      </li>
+      <li class="faq-acc-el faq-current">
+        <h3 class="faq-acc-el-title">
+          <button type="button" class="faq-acc-el-trigger">
+            How do I unlock new weapons?
+
+            <span class="faq-acc-arr arr-down">
+              <img class="faq-img" src="/img/arrow-down.png" alt="Down Arrow" width="48" height="48" />
+            </span>
+          </button>
+        </h3>
+
+        <p class="faq-acc-el-descr-frame">
+          You can earn upgrades by completing levels or purchasing them in the store.
+        </p>
+      </li>
+      <li class="faq-acc-el faq-current">
+        <h3 class="faq-acc-el-title">
+          <button type="button" class="faq-acc-el-trigger">
+            What platforms is the game available on?
+
+            <span class="faq-acc-arr arr-down">
+              <img class="faq-img" src="/img/arrow-down.png" alt="Down Arrow" width="48" height="48" />
+            </span>
+          </button>
+        </h3>
+
+        <p class="faq-acc-el-descr-frame">
+          Super Bazooka Boy is available on Android and iOS.
+        </p>
+      </li>
   </div>
 </section>
 <!-- Reviews -->
@@ -214,44 +290,54 @@
     <ul class="reviews-list">
       <li class="reviews-item">
         <h3 class="reviews-subtitle">Jake Thompson </h3>
-        <img class="reviews" src="/img/reviews/five-star.png" srcset="/img/reviews/five-star.png,
+        <div class="reviews-container">
+          <img class="reviews" src="/img/reviews/five-star.png" srcset="/img/reviews/five-star.png,
                                /img/reviews/five-star@2x.png
                                " alt="five-star" loading="lazy" />
-        <p class="reviews-number-text">5,0</p>
+          <p class="reviews-number-text">5,0</p>
+        </div>
         <p class="reviews-text">Super fun and addictive! The explosions are so satisfying, and the levels are
           well-designed.</p>
       </li>
       <li class="reviews-item">
         <h3 class="reviews-subtitle">Emily Carter</h3>
-        <img class="reviews" src="/img/reviews/five-star.png" srcset="/img/reviews/five-star.png,
+        <div class="reviews-container">
+          <img class="reviews" src="/img/reviews/five-star.png" srcset="/img/reviews/five-star.png,
       /img/reviews/five-star@2x.png
       " alt="five-star" loading="lazy" />
-        <p class="reviews-number-text">4,9</p>
+          <p class="reviews-number-text">4,9</p>
+        </div>
         <p class="reviews-text">Love the physics-based destruction! Blasting through walls never gets old. Highly
           recommended!</p>
       </li>
       <li class="reviews-item">
         <h3 class="reviews-subtitle">Daniel Brown</h3>
-        <img class="reviews" src="/img/reviews/four-star.png" srcset="/img/reviews/four-star.png,
+        <div class="reviews-container">
+          <img class="reviews" src="/img/reviews/four-star.png" srcset="/img/reviews/four-star.png,
       /img/reviews/four-star@2x.png
       " alt="four-star" loading="lazy" />
-        <p class="reviews-number-text">4,7</p>
+          <p class="reviews-number-text">4,7</p>
+        </div>
         <p class="reviews-text">Great time-killer with awesome mechanics. Some levels are really challenging!</p>
       </li>
       <li class="reviews-item">
         <h3 class="reviews-subtitle">Olivia Wilson</h3>
-        <img class="reviews" src="/img/reviews/four-star.png" srcset="/img/reviews/four-star.png,
+        <div class="reviews-container">
+          <img class="reviews" src="/img/reviews/four-star.png" srcset="/img/reviews/four-star.png,
       /img/reviews/four-star@2x.png
       " alt="four-star" loading="lazy" />
-        <p class="reviews-number-text">4,5</p>
+          <p class="reviews-number-text">4,5</p>
+        </div>
         <p class="reviews-text">The upgrades make a big difference, and I love the different strategies you can use.</p>
       </li>
       <li class="reviews-item">
         <h3 class="reviews-subtitle">Liam Johnson </h3>
-        <img class="reviews" src="/img/reviews/four-star.png" srcset="/img/reviews/four-star.png,
+        <div class="reviews-container">
+          <img class="reviews" src="/img/reviews/four-star.png" srcset="/img/reviews/four-star.png,
       /img/reviews/four-star@2x.png
       " alt="four-star" loading="lazy" />
-        <p class="reviews-number-text">4,2</p>
+          <p class="reviews-number-text">4,2</p>
+        </div>
         <p class="reviews-text">Solid game with smooth controls. Would love to see more weapons added!</p>
       </li>
     </ul>
