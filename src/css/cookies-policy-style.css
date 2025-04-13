@@ -5,16 +5,26 @@
 @import url('./header.css');
 @import url('./footer.css');
 
-.container-header {
-    margin: 0;
-    padding:0;
+
+  .cookies-policy-container{
+    font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 1.2;
+color: #131d1c;
   }
-  .header-container{
-    padding:12px 16px;
-    max-width:340px;
+  .break-url{
+    word-break: break-all;
   }
-  .modal{
-    top:0;
-    left:40%;
-    transform:translateX(-52%);
+  .contact-text{
+    margin-top:20px;
+  }
+  @media screen and (min-width: 1439px) {
+    .cookies-policy-container{
+  font-size: 24px;
+  line-height: 1.33333;  
+    }
+    .contact-text{
+      margin-top:0;
+    }
   }

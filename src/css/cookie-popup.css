@@ -1,0 +1,123 @@
+.cookie-popup {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    color: #000;
+    border: 2px solid #070082;
+    border-radius: 12px;
+    padding: 32px 16px;
+    width: 374px;
+    max-height: 376px;
+    z-index: 1200;   
+    display: none;
+    flex-direction: column;
+    
+} 
+  .cookies-img{
+    width:64px;
+    height:64px;
+    margin:0 auto 12px;
+  }
+  
+  .cookie-class {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #131d1c;
+   
+  }
+  
+  .cookie-buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top:32px;
+  }
+  
+  .btn-accept {
+    box-shadow: 0 3px 12px 0 rgba(74, 58, 255, 0.18);
+    background: #2b6ce0;
+    border-radius: 8px;
+padding: 16px 20px;
+width: 343px;
+height: 56px;
+font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 20px;
+line-height: 1.2;
+color: #fff;
+border:none;
+cursor:pointer;
+  }
+  
+  .btn-decline {
+    box-shadow: 0 4px 8px 0 rgba(74, 58, 255, 0.08);
+    background: #fff;
+    border: 2px solid #2b6ce0;
+border-radius: 8px;
+padding: 16px 32px;
+width: 343px;
+height: 56px;
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 1.2;
+color: #2b6ce0;
+cursor:pointer;
+  }
+  @media screen and (min-width: 1440px) {
+    .cookie-popup {
+      border: 1px solid #070082;
+      border-radius: 12px;
+      width: 1430px;
+      max-height: 164px;
+      flex-direction: row;
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+      align-items:center;
+      justify-content:center;
+    }
+  
+    .cookies-img{
+      width:68px;
+      height:68px;
+      margin:0;
+    }
+    .cookie-class {
+      font-size: 20px;
+      line-height: 1.2;
+     max-width:608px;
+     text-align: start;
+     margin-left:20px;
+    }
+    
+    .cookie-buttons {
+      display: flex;
+      justify-content: start;
+      flex-direction: row;
+      gap:40px;
+      margin-left:122px;
+      align-items:center;
+      margin-top:0;
+    }
+  
+    .btn-accept {
+      border-radius: 8px;
+      padding: 16px 20px;
+      width: 219px;
+      height: 56px; 
+    
+    }
+  
+    .btn-decline {
+      width: 120px;
+      height: 56px;
+      padding: 16px 20px;
+    }
+  }

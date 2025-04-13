@@ -25,6 +25,20 @@ h2 {
  padding:12px 0;
  min-width:320px;
 }
+.background{
+  background: #fff;
+}
+.condition-title{
+font-family: "Gajraj One", sans-serif;
+font-weight: 400;
+font-size: 32px;
+line-height: 1.125;
+color: #2b6ce0;
+text-shadow: none;
+filter: none;
+margin:32px 0 16px;
+text-align:start;
+}
 .button {
   display:block;
   font-family: 'Roboto', sans-serif;
@@ -48,5 +62,10 @@ margin:0 auto;
 }
 .header-title-container{
   max-height: 75px;
+}
+.condition-title{
+  font-size: 44px;
+  line-height: 1.27273;
+  margin:64px 0 24px;
 }
 }

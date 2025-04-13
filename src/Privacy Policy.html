@@ -18,22 +18,22 @@
     rel="stylesheet">
   <link rel="icon" type="image/svg+xml" href="/img/logo-mob.png" />
   <title>Super Bazooka Boy</title>
-  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/privacy-styles.css" />
 </head>
 
-<body>
+<body class="background">
   <load src="./partials/header.html" />
 
   <main>
-    <div class="container">
-      <h2>Privacy Policy</h2>
+    <div class="container policy-container">
+      <h2 class="condition-title">Privacy Policy</h2>
       <p>
        This privacy policy applies to the Super Bazooka Boy app (hereby referred to as "Application") for mobile devices that was created by (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".
      </p>
      <p>
        Information Collection and Use<br/>
-       The Application collects information when you download and use it. This information may include information such as<br/>
-     •	Your device's Internet Protocol address (e.g. IP address)<br/>
+       The Application collects information when you download and use it. This information may include information such as</p>
+     <p class="text-margin">•	Your device's Internet Protocol address (e.g. IP address)<br/>
      •	The pages of the Application that you visit, the time and date of your visit, the time spent on those pages <br/>
      •	The time spent on the Application<br/>
      •	The operating system you use on your mobile device<br/>
@@ -41,12 +41,21 @@
  The Service Provider may use the information you provided to contact you from time to time to provide you with important information, required notices and marketing promotions.
  For a better experience, while using the Application, the Service Provider may require you to provide us with certain personally identifiable information. The information that the Service Provider request will be retained by them and used as described in this privacy policy.
  Third Party Access<br/>
-       Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in improving the Application and their service. The Service Provider may share your information with third parties in the ways that are described in this privacy statement.
+       Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in improving the Application and their service. The Service Provider may share your information with third parties in the ways that are described in this privacy statement.<br/>
        Please note that the Application utilizes third-party services that have their own Privacy Policy about handling data. Below are the links to the Privacy Policy of the third-party service providers used by the Application:
        </p>
-       •	Google Play Services <br/>
-       •	Google Analytics for Firebase <br/>
-       •	Facebook <br/>
+       <ul class="privacy-list">
+        <li>
+          <a href="https://policies.google.com/terms" target="_blank">Google Play Services
+           </a><br/>
+        </li>
+        <li>
+          <a href="https://www.google.com/analytics/terms/" target="_blank">Google Analytics for Firebase </a><br/>
+        </li>
+        <li>
+          <a href="https://mbasic.facebook.com/legal/terms/plain_text_terms/" target="_blank">Facebook</a><br/>
+        </li>
+      </ul>
          The Service Provider may disclose User Provided and Automatically Collected Information:<br/>
        •	as required by law, such as to comply with a subpoena, or similar legal process;<br/>
        •	when they believe in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;<br/>
@@ -75,6 +84,7 @@
   </main>
 
   <load src="./partials/footer.html" />
+  <script type="module" src="./main.js"></script>
 </body>
 
 </html>

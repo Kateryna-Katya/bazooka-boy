@@ -1,0 +1,27 @@
+@import url('./container.css');
+@import url('./base.css');
+@import url('./reset.css');
+@import url('./header.css');
+@import url('./footer.css');
+
+.terms-container{
+    font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-size: 20px;
+line-height: 1.2;
+color: #131d1c;
+}
+@media screen and (min-width: 1439px) {
+    .terms-container{
+    font-size: 24px;
+    line-height: 1.33333;
+    } 
+    .text-margin{
+        margin-top:20px;
+    }
+    .terms-list{
+        text-decoration: underline;
+        padding-left:20px;
+        list-style-type: disc;
+    }
+}
