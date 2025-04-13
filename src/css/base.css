@@ -4,7 +4,7 @@ body {
   font-size: 20px;
   line-height: 1.33333;
   color: #131d1c;
-  background: #0047c2;
+  background: #2b6ce0;
   margin: 0;
 }
 h2 {
@@ -17,6 +17,13 @@ h2 {
   text-shadow: -2px -2px 0 #070082, 2px -2px 0 #070082, -2px 2px 0#070082,
     2px 2px 0 #070082;
   filter: drop-shadow(2px 2px 0 #070082) drop-shadow(-2px -2px 0 #070082);
+}
+.header-title-container{
+ max-height: 91px;
+ background: #0047c2;
+
+ padding:12px 0;
+ min-width:320px;
 }
 .button {
   display:block;
@@ -34,4 +41,12 @@ h2 {
 margin:0 auto;
   box-shadow: 0 2px 0 0 #000;
   background: linear-gradient(180deg, #e2fe6e 0%, #3deb22 100%);
+}
+@media only screen and (min-width: 1439px) {
+  h2 {
+    font-size: 56px;
+}
+.header-title-container{
+  max-height: 75px;
+}
 }

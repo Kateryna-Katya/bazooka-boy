@@ -56,14 +56,9 @@
 }
 /* Benefits */
 
-.benefits-title {
-  margin-bottom: 31px;
-}
-
 .right-arrow {
   transform: rotate(180deg);
 }
-
 
 .custom-arrow {
   width: 40px;
@@ -109,14 +104,10 @@
     position: relative;
     max-width:1262px;
   }
-  .benefits-title {
-    margin-bottom: 65px;
-  }
-
-  .custom-arrow {
+   .custom-arrow {
     position: absolute;
-    top: 20%;
-    transform: translateY(-15%);
+    top: 0;
+    transform: translateY(30%);
     z-index: 1000;
   }
   .custom-prev {
@@ -132,9 +123,6 @@
 }
 
 /* Keys */
-.keys-title {
-  margin-bottom: 38px;
-}
 .keys-list {
   padding: 0;
 }
@@ -174,9 +162,7 @@
   }
 }
 /* About */
-.about-section-container {
-  margin: 37px 0 0;
-}
+
 .about-img {
   width:100%;
   margin-bottom: 34px;
@@ -200,7 +186,7 @@
     display: flex;
     justify-content:center;
     gap: 24px;
-    margin: 40px 0 0;
+    
   }
   .about-img {
     margin-bottom: 0;
@@ -219,7 +205,7 @@
 }
 /* how to play */
 .play-container {
-  margin: 30px 0 24px;
+  margin: 0 0 24px;
 }
 .play-list {
   display: flex;
@@ -255,7 +241,7 @@
     display: flex;
     max-width:1270px;
     gap: 24px;
-    margin: 40px auto 0;
+    margin: 0 auto;
     
   }
   .play-container {
@@ -278,7 +264,7 @@
 /* FAQ */
 .faq-acc {
   display: flex;
-  flex-direction: column;
+  flex-direction: column;  
   gap: 16px;
   min-width: 343px;
 }
@@ -360,7 +346,7 @@
 }
 
 .faq-acc {
-  margin: 30px auto 0;
+  margin: 0 auto ;
 }
 @media screen and (min-width: 1439px) {
   .faq-acc-el-trigger {
@@ -383,7 +369,6 @@
 
 /* Rewiews */
 .reviews-list {
-  margin-top: 30px;
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -428,7 +413,7 @@
 
 @media screen and (min-width: 1439px) {
   .reviews-list {
-    margin: 30px auto 0;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -449,7 +434,6 @@
 }
 /* Gallery */
 .gallery-container {
-  margin-top: 25px;
   display: flex;
   flex-direction: column;
 
