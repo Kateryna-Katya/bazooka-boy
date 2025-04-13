@@ -36,6 +36,9 @@ color: #fcce00;
     margin:0;
 }
 @media screen and (min-width: 1439px) {
+  .footer-first-container{
+    max-width:1264px;
+  }
     .footer-container {
         display: flex;
         flex-direction: row;

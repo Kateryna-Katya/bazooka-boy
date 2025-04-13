@@ -4,7 +4,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 
 document.addEventListener('DOMContentLoaded', function () {
-    const swiper = new Swiper('.section-swiper', {
+    const swiper = new Swiper('.section-swiper-one', {
         modules: [Navigation],
         breakpoints: {
             374: {
@@ -27,8 +27,8 @@ document.addEventListener('DOMContentLoaded', function () {
         direction: 'horizontal',
 
         navigation: {
-            nextEl: '.custom-next',
-            prevEl: '.custom-prev',
+            nextEl: '.custom-next-first',
+            prevEl: '.custom-prev-first',
         },
 
         on: {
